@@ -2,7 +2,7 @@ version: "3"
 services:
   fess01:
     # restart: always
-    image: codelibs/fess:13.8.1
+    image: linaroits/fess:13.8.1
     container_name: fess01
     environment:
       - RUN_ELASTICSEARCH=false
