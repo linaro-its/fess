@@ -821,8 +821,8 @@
             "lowercase",
             "english_keywords",
             "english_override",
-            "possessive_stemmer_en_filter",
-            "english_synonym_filter"
+            "english_synonym_filter",
+            "possessive_stemmer_en_filter"
           ]
         },
         "finnish_analyzer": {
