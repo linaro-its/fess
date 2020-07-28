@@ -653,6 +653,10 @@
         "synonym_filter" : {
           "type" : "synonym_graph",
           "synonyms_path": "${fess.dictionary.path}synonym.txt"
+        },
+        "english_synonym_filter" : {
+          "type" : "synonym_graph",
+          "synonyms_path": "${fess.dictionary.path}en/synonym.txt"
         }
       },
       "tokenizer": {
@@ -817,7 +821,8 @@
             "lowercase",
             "english_keywords",
             "english_override",
-            "possessive_stemmer_en_filter"
+            "possessive_stemmer_en_filter",
+            "english_synonym_filter"
           ]
         },
         "finnish_analyzer": {
